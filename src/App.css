@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px; 
+  background-color: #282c34;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold; 
+}
+
+.navButtons {
+  display: flex;
+  gap: 15px; 
+  flex-grow: 1; 
+  justify-content: center; 
+}
+
+.button {
+  padding: 10px 15px; 
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #21a1f1; 
+}
+
+.cartIcon {
+  margin-left: auto; 
+}
+
+.center-text {
+  text-align: center; 
+  margin: 20px 0; 
+}
+
+.body {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilos para la lista de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.product-item {
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  margin: 10px; 
+  padding: 15px; 
+  width: calc(33% - 20px); 
+  text-align: center; 
+}
+
+/* Estilos generales para la página de detalles */
+.item-detail {
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.item-image {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.item-price {
+  font-size: 20px; 
+  font-weight: bold; 
+}
+
+.item-description {
+  margin-top: 10px; 
+}
+
+.back-button {
+  display: inline-block; 
+  margin-top: 20px; 
+  padding: 10px 15px; 
+  background-color: #61dafb; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px; 
+}
+
+.back-button:hover {
+  background-color: #21a1f1; 
+}
