@@ -3,8 +3,8 @@
   justify-content: space-between; 
   align-items: center;
   padding: 10px 20px; 
-  background-color: #282c34;
-  color: white;
+  background-color: #282c34; 
+  color: white; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
 }
 
@@ -16,13 +16,11 @@
 .navButtons {
   display: flex;
   gap: 15px; 
-  flex-grow: 1; 
-  justify-content: center; 
 }
 
 .button {
   padding: 10px 15px; 
-  background-color: #61dafb;
+  background-color: #61dafb; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -33,8 +31,9 @@
   background-color: #21a1f1; 
 }
 
-.cartIcon {
-  margin-left: auto; 
+.cart-icon {
+  display: inline-flex; 
+  align-items: center; 
 }
 
 .center-text {
@@ -60,10 +59,30 @@
   margin: 10px; 
   padding: 15px; 
   width: calc(33% - 20px); 
-  text-align: center; 
 }
 
-/* Estilos generales para la página de detalles */
+.add-to-cart-button {
+  padding: 10px 20px; 
+  margin-left: 20px;
+  background-color: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  font-size: 16px; 
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838; 
+  transform: translateY(-2px); 
+}
+
+.add-to-cart-button:active {
+  transform: translateY(0); 
+}
+
+/* Estilos para la pagina de detalles */
 .item-detail {
   max-width: 600px; 
   margin: 20px auto; 
@@ -99,5 +118,222 @@
 }
 
 .back-button:hover {
-  background-color: #21a1f1; 
+    background-color: #21a1f1;
+}
+
+.telescopios-navbar {
+    margin:20px;
+}
+
+.telescopios-navbar button {
+    margin-right :10px;
+    padding :10px;
+    background-color :#007bff;
+    color :white;
+    border :none;
+    border-radius :5px;
+    cursor :pointer;
+}
+
+.telescopios-navbar button:hover {
+    background-color :#0056b3;
+}
+
+/* Estilos para el carrito */
+.cart-container {
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.cart-container h2 {
+  text-align: center; 
+  color: #333; 
+}
+
+.cart-item {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+  border-bottom: 1px solid #eee; 
+}
+
+.cart-item:last-child {
+  border-bottom: none; 
+}
+
+.cart-item h3 {
+  margin: 0; 
+}
+
+.cart-item p {
+  margin: 5px 0; 
+}
+
+.remove-button {
+  padding: 5px 10px; 
+  background-color: #dc3545; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.remove-button:hover {
+  background-color: #c82333; 
+}
+
+.total-price {
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-top: 20px; 
+}
+
+.pay-button {
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  background-color: #28a745; 
+  color: white; 
+  text-align: center; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #218838; 
+}
+
+/* Estilos para el Checkout */
+.checkout-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.checkout-item:last-child {
+  border-bottom: none;
+}
+
+.checkout-item h3 {
+  margin: 0;
+}
+
+.checkout-item p {
+  margin: 5px 0;
+}
+
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.empty-cart-message {
+  text-align: center;
+  color: #999;
+}
+
+/* Estilos para seccion Telescopios*/
+.telescopios-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.telescopios-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.telescopios-container p {
+  text-align: center;
+  color: #666;
+}
+
+.info-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.info-section h3 {
+  margin-top: 0;
+}
+
+.info-section p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para TelescopiosNavBar*/
+.telescopios-navbar {
+  display: flex; 
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+.nav-item {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin: 0 15px; 
+}
+
+.nav-button {
+  padding: 10px 20px; 
+  margin-bottom: 10px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  font-size: 16px; 
+}
+
+.nav-button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px); 
+}
+
+.nav-button:active {
+  transform: translateY(0); 
+}
+
+.nav-image {
+  width: 300px; 
+  height: auto; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
