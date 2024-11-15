@@ -2,7 +2,7 @@
 
 ¡Bienvenido a **EclipsE-Commerce**! Este proyecto está diseñado para educar y entusiasmar a los usuarios sobre el fascinante mundo de la astronomía, los telescopios y los objetos celestes que pueblan nuestro universo. A través de una interfaz interactiva y educativa, los usuarios pueden aprender sobre diferentes tipos de telescopios, explorar objetos astronómicos, entender la ingeniería detrás de la exploración espacial y sobre todo, comprar productos para la investigacion y astrofotografia!
 
-![EclipsE-Commerce Demo](Public/Assets/Demo/eclipse-commerce-demo.gif)
+![EclipsE-Commerce Demo](public/Assets/Demo/eclipse-commerce-demo.gif)
 
 ## Características
 
